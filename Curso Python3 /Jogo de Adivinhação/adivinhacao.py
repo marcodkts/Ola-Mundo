@@ -2,10 +2,10 @@ print('********************************')
 print('Bem vindo ao jogo de Adivinhação')
 print('********************************')
 
-
+import random
+numero_secreto = round(random.randrange(1,100,1))
 acerto = False
 tentativa = 1
-numero_secreto = 42
 
 while (acerto == False):
     print("Tentativa número ", tentativa)
